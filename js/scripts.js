@@ -112,7 +112,7 @@ var overlayMaps = {
 	"Calor Acción Social" :calor_social,
 	
 };
-control_layers = L.control.layers(baseMaps, overlayMaps, {position:'topleft', collapsed:false} ).addTo(map);
+control_layers = L.control.layers(baseMaps, overlayMaps, {position:'topleft', collapsed:true} ).addTo(map);
 
 L.control.zoom({position:'topright'} ).addTo(map);
 L.control.scale({position:'topright', imperial:false} ).addTo(map);
